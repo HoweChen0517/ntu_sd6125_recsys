@@ -1,0 +1,49 @@
+2024-10-22 12:36:25:loading data...
+loading data...
+2024-10-22 12:36:29:proessing features...
+2024-10-22 12:37:14:cuda ready...
+2024-10-22 12:37:14:model training...
+[34m[1mwandb[0m: [33mWARNING[0m WandbCallback is deprecated and will be removed in a future release. Please use the WandbMetricsLogger, WandbModelCheckpoint, and WandbEvalCallback callbacks instead. See https://docs.wandb.ai/guides/integrations/keras for more information.
+[34m[1mwandb[0m: [33mWARNING[0m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+cuda:0
+Train on 2428332 samples, validate on 607084 samples, 2372 steps per epoch
+Traceback (most recent call last):
+  File "f:\NTU Learn\DATA MINING\DMproject\src\dssm\dssm_wandb.py", line 197, in <module>
+    history = model.fit(
+  File "f:\NTU Learn\DATA MINING\DMproject\src\dssm\model\base_tower.py", line 130, in fit
+    for _, (x_train, y_train) in t:
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python39\site-packages\tqdm\std.py", line 1169, in __iter__
+    for obj in iterable:
+  File "C:\Users\Administrator\.conda\envs\ntu_sd6125_recsys\lib\site-packages\torch\utils\data\dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "C:\Users\Administrator\.conda\envs\ntu_sd6125_recsys\lib\site-packages\torch\utils\data\dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\Administrator\.conda\envs\ntu_sd6125_recsys\lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\Administrator\.conda\envs\ntu_sd6125_recsys\lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\Administrator\.conda\envs\ntu_sd6125_recsys\lib\site-packages\torch\utils\data\dataset.py", line 211, in __getitem__
+    return tuple(tensor[index] for tensor in self.tensors)
+  File "C:\Users\Administrator\.conda\envs\ntu_sd6125_recsys\lib\site-packages\torch\utils\data\dataset.py", line 211, in <genexpr>
+    return tuple(tensor[index] for tensor in self.tensors)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "f:\NTU Learn\DATA MINING\DMproject\src\dssm\dssm_wandb.py", line 197, in <module>
+    history = model.fit(
+  File "f:\NTU Learn\DATA MINING\DMproject\src\dssm\model\base_tower.py", line 130, in fit
+    for _, (x_train, y_train) in t:
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python39\site-packages\tqdm\std.py", line 1169, in __iter__
+    for obj in iterable:
+  File "C:\Users\Administrator\.conda\envs\ntu_sd6125_recsys\lib\site-packages\torch\utils\data\dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "C:\Users\Administrator\.conda\envs\ntu_sd6125_recsys\lib\site-packages\torch\utils\data\dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\Administrator\.conda\envs\ntu_sd6125_recsys\lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\Administrator\.conda\envs\ntu_sd6125_recsys\lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\Administrator\.conda\envs\ntu_sd6125_recsys\lib\site-packages\torch\utils\data\dataset.py", line 211, in __getitem__
+    return tuple(tensor[index] for tensor in self.tensors)
+  File "C:\Users\Administrator\.conda\envs\ntu_sd6125_recsys\lib\site-packages\torch\utils\data\dataset.py", line 211, in <genexpr>
+    return tuple(tensor[index] for tensor in self.tensors)
+KeyboardInterrupt

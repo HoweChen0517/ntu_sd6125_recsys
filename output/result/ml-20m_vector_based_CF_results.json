@@ -1,0 +1,10 @@
+{
+    "algorithm": "SVD",
+    "best_score": 0.7332995609429084,
+    "best_params": {
+        "n_factors": 50,
+        "n_epochs": 20,
+        "lr_all": 0.005,
+        "reg_all": 0.02
+    }
+}
