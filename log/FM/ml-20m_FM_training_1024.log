@@ -1,0 +1,17 @@
+root - INFO - begin tuning parameters for ml-20m: SVD
+root - INFO - ml-20m_best_params: {'n_factors': 50, 'n_epochs': 20, 'lr_all': 0.005, 'reg_all': 0.02}
+root - INFO - start training: SVD
+root - INFO - start evaluation: SVD
+root - INFO - {'test_rmse': 0.7332995609429084, 'test_mae': 0.5577367100984899}
+root - INFO - begin tuning parameters for ml-20m: NMF
+root - INFO - ml-20m_best_params: {'n_factors': 25, 'n_epochs': 100}
+root - INFO - start training: NMF
+root - INFO - start evaluation: NMF
+root - INFO - {'test_rmse': 0.7819880702587317, 'test_mae': 0.5999421597706424}
+root - INFO - begin tuning parameters for ml-20m: KNNWithMeans
+root - INFO - ml-20m_best_params: {'k': 30, 'sim_options': {'name': 'pearson', 'user_based': True}}
+root - INFO - start training: KNNWithMeans
+root - INFO - start evaluation: KNNWithMeans
+root - INFO - {'test_rmse': 0.8035846464554129, 'test_mae': 0.6141926699483486}
+root - INFO - ml-20m_model is trained and saved at: f:\NTU Learn\DATA MINING\DMproject\output\model\ml-20m_collaborative_filtering_model.pickle
+root - INFO - ml-20m_model evaluation is saved at: f:\NTU Learn\DATA MINING\DMproject\output\result\ml-20m_vector_based_CF_results.json

@@ -1,0 +1,26 @@
+2024-10-22 12:36:24,975 INFO    MainThread:34908 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-22 12:36:24,975 INFO    MainThread:34908 [wandb_setup.py:_flush():79] Configure stats pid to 34908
+2024-10-22 12:36:24,975 INFO    MainThread:34908 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Administrator\.config\wandb\settings
+2024-10-22 12:36:24,975 INFO    MainThread:34908 [wandb_setup.py:_flush():79] Loading settings from F:\NTU Learn\DATA MINING\DMproject\wandb\settings
+2024-10-22 12:36:24,975 INFO    MainThread:34908 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'notebook_name': 'dssm_wandb'}
+2024-10-22 12:36:24,975 INFO    MainThread:34908 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-22 12:36:24,975 INFO    MainThread:34908 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'src\\dssm\\dssm_wandb.py', 'program_abspath': 'f:\\NTU Learn\\DATA MINING\\DMproject\\src\\dssm\\dssm_wandb.py', 'program': 'f:\\NTU Learn\\DATA MINING\\DMproject\\src\\dssm\\dssm_wandb.py'}
+2024-10-22 12:36:24,975 INFO    MainThread:34908 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-22 12:36:24,975 INFO    MainThread:34908 [wandb_init.py:_log_setup():534] Logging user logs to F:\NTU Learn\DATA MINING\DMproject\wandb\run-20241022_123624-ch755u9f\logs\debug.log
+2024-10-22 12:36:24,975 INFO    MainThread:34908 [wandb_init.py:_log_setup():535] Logging internal logs to F:\NTU Learn\DATA MINING\DMproject\wandb\run-20241022_123624-ch755u9f\logs\debug-internal.log
+2024-10-22 12:36:24,975 INFO    MainThread:34908 [wandb_init.py:init():621] calling init triggers
+2024-10-22 12:36:24,975 INFO    MainThread:34908 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'batch_size': 1024, 'epochs': 64, 'learning_rate': 0.001, 'dnn_dropout': 0.5, 'l2_reg_dnn': 0.001, 'l2_reg_embedding': 0.001}
+2024-10-22 12:36:24,975 INFO    MainThread:34908 [wandb_init.py:init():671] starting backend
+2024-10-22 12:36:24,975 INFO    MainThread:34908 [wandb_init.py:init():675] sending inform_init request
+2024-10-22 12:36:24,975 INFO    MainThread:34908 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-22 12:36:24,986 INFO    MainThread:34908 [wandb_init.py:init():688] backend started and connected
+2024-10-22 12:36:24,988 INFO    MainThread:34908 [wandb_init.py:init():783] updated telemetry
+2024-10-22 12:36:25,227 INFO    MainThread:34908 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-22 12:36:25,583 INFO    MainThread:34908 [wandb_init.py:init():867] starting run threads in backend
+2024-10-22 12:36:25,685 INFO    MainThread:34908 [wandb_run.py:_console_start():2463] atexit reg
+2024-10-22 12:36:25,685 INFO    MainThread:34908 [wandb_run.py:_redirect():2311] redirect: wrap_raw
+2024-10-22 12:36:25,685 INFO    MainThread:34908 [wandb_run.py:_redirect():2376] Wrapping output streams.
+2024-10-22 12:36:25,685 INFO    MainThread:34908 [wandb_run.py:_redirect():2401] Redirects installed.
+2024-10-22 12:36:25,686 INFO    MainThread:34908 [wandb_init.py:init():911] run started, returning control to user process
+2024-10-22 12:37:40,737 WARNING MsgRouterThr:34908 [router.py:message_loop():77] message_loop has been closed

@@ -1,0 +1,43 @@
+{
+  "os": "Windows-10-10.0.22631-SP0",
+  "python": "3.9.20",
+  "startedAt": "2024-10-22T04:36:24.986373Z",
+  "program": "f:\\NTU Learn\\DATA MINING\\DMproject\\src\\dssm\\dssm_wandb.py",
+  "codePath": "src\\dssm\\dssm_wandb.py",
+  "git": {
+    "remote": "https://github.com/HoweChen0517/DMproject.git",
+    "commit": "eaead940ecf2b4e0fda9df44ecb0ca72fa392b2e"
+  },
+  "email": "CH0009AO@e.ntu.edu.sg",
+  "root": "F:\\NTU Learn\\DATA MINING\\DMproject",
+  "host": "DESKTOP-KP24OG0",
+  "username": "Administrator",
+  "executable": "C:\\Users\\Administrator\\.conda\\envs\\ntu_sd6125_recsys\\python.exe",
+  "codePathLocal": "src\\dssm\\dssm_wandb.py",
+  "cpu_count": 20,
+  "cpu_count_logical": 28,
+  "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1000168484864",
+      "used": "537264955392"
+    }
+  },
+  "memory": {
+    "total": "34163765248"
+  },
+  "cpu": {
+    "count": 20,
+    "countLogical": 28
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4070 Ti SUPER",
+      "memoryTotal": "17171480576",
+      "cudaCores": 8448,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.6"
+}

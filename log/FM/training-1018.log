@@ -1,0 +1,15 @@
+root - INFO - begin tuning parameters: KNNWithMeans
+root - INFO - best_params£º{'k': 30, 'sim_options': {'name': 'cosine', 'user_based': True}}
+root - INFO - start training: KNNWithMeans
+root - INFO - start evaluation: KNNWithMeans
+root - INFO - {'test_rmse': array([0.80060263, 0.80097038, 0.80170473, 0.80151713, 0.80146384]), 'test_mae': array([0.61715761, 0.6177503 , 0.61814123, 0.61780512, 0.61791585]), 'fit_time': (92.46744275093079, 93.12399196624756, 91.76981902122498, 91.72473406791687, 92.38219571113586), 'test_time': (180.0111701488495, 181.24720239639282, 184.82944917678833, 183.3440866470337, 181.03445172309875)}
+root - INFO - begin tuning parameters: SVD
+root - INFO - best_params£º{'n_factors': 50, 'n_epochs': 30, 'lr_all': 0.005, 'reg_all': 0.02}
+root - INFO - start training: SVD
+root - INFO - start evaluation: SVD
+root - INFO - {'test_rmse': array([0.73149041, 0.73175423, 0.73247304, 0.73223957, 0.7320678 ]), 'test_mae': array([0.55567635, 0.55593706, 0.55646464, 0.5566529 , 0.55646231]), 'fit_time': (16.718446254730225, 17.198108911514282, 16.810425519943237, 16.798314094543457, 16.64503002166748), 'test_time': (4.803318738937378, 5.8451361656188965, 4.8046300411224365, 5.794598817825317, 4.725821495056152)}
+root - INFO - begin tuning parameters: NMF
+root - INFO - best_params£º{'n_factors': 25, 'n_epochs': 100}
+root - INFO - start training: NMF
+root - INFO - start evaluation: NMF
+root - INFO - {'test_rmse': array([0.7825625 , 0.78298811, 0.7798776 , 0.78095687, 0.77843456]), 'test_mae': array([0.60069962, 0.60052038, 0.59832369, 0.59929362, 0.59730278]), 'fit_time': (52.13675618171692, 52.95674109458923, 52.44515061378479, 52.58832049369812, 52.803741216659546), 'test_time': (3.727339267730713, 5.221452713012695, 5.222229719161987, 5.781010389328003, 4.725327014923096)}

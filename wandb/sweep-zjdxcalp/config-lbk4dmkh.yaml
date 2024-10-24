@@ -1,0 +1,14 @@
+wandb_version: 1
+
+batch_size:
+  value: 1133
+dnn_dropout:
+  value: 0.307463596157763
+epochs:
+  value: 91
+l2_reg_dnn:
+  value: 0.0013217535367121911
+l2_reg_embedding:
+  value: 0.000583763528773422
+learning_rate:
+  value: 0.0011870898776445587

@@ -1,0 +1,35 @@
+2024-10-22 15:08:27 INFO Running runs: []
+2024-10-22 15:08:27 INFO Agent received command: run
+2024-10-22 15:08:27 INFO Agent starting run with config:
+	batch_size: 1152
+	dnn_dropout: 0.7902433700816186
+	epochs: 32
+	l2_reg_dnn: 0.0009534988589477596
+	l2_reg_embedding: 0.0007201338362256696
+	learning_rate: 0.0006385078921531968
+2024-10-22 15:08:27 INFO About to run command: python dssm_wandb.py --batch_size=1152 --dnn_dropout=0.7902433700816186 --epochs=32 --l2_reg_dnn=0.0009534988589477596 --l2_reg_embedding=0.0007201338362256696 --learning_rate=0.0006385078921531968
+2024-10-22 15:08:32 INFO Running runs: ['tw25et0s']
+2024-10-22 15:08:32 INFO Cleaning up finished run: tw25et0s
+2024-10-22 15:08:33 INFO Agent received command: run
+2024-10-22 15:08:33 INFO Agent starting run with config:
+	batch_size: 587
+	dnn_dropout: 0.45957943806573515
+	epochs: 62
+	l2_reg_dnn: 0.0012357151777553847
+	l2_reg_embedding: 0.0015271034541535472
+	learning_rate: 0.000968624513233036
+2024-10-22 15:08:33 INFO About to run command: python dssm_wandb.py --batch_size=587 --dnn_dropout=0.45957943806573515 --epochs=62 --l2_reg_dnn=0.0012357151777553847 --l2_reg_embedding=0.0015271034541535472 --learning_rate=0.000968624513233036
+2024-10-22 15:08:38 INFO Running runs: ['7vqkunig']
+2024-10-22 15:08:38 INFO Cleaning up finished run: 7vqkunig
+2024-10-22 15:08:38 INFO Agent received command: run
+2024-10-22 15:08:38 INFO Agent starting run with config:
+	batch_size: 1133
+	dnn_dropout: 0.307463596157763
+	epochs: 91
+	l2_reg_dnn: 0.0013217535367121911
+	l2_reg_embedding: 0.000583763528773422
+	learning_rate: 0.0011870898776445587
+2024-10-22 15:08:38 INFO About to run command: python dssm_wandb.py --batch_size=1133 --dnn_dropout=0.307463596157763 --epochs=91 --l2_reg_dnn=0.0013217535367121911 --l2_reg_embedding=0.000583763528773422 --learning_rate=0.0011870898776445587
+2024-10-22 15:08:44 INFO Running runs: ['lbk4dmkh']
+2024-10-22 15:08:44 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-10-22 15:08:44 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true

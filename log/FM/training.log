@@ -1,0 +1,5 @@
+root - INFO - begin tuning parameters: KNNWithMeans
+root - INFO - best_params: {'k': 30, 'sim_options': {'name': 'cosine', 'user_based': True}}
+root - INFO - start training: KNNWithMeans
+root - INFO - start evaluation: KNNWithMeans
+root - INFO - {'test_rmse': array([0.80152335, 0.80201405, 0.80054581, 0.80196203, 0.80074967]), 'test_mae': array([0.61810082, 0.61831148, 0.61682931, 0.61827864, 0.61754022]), 'fit_time': (92.17183089256287, 92.3533263206482, 92.34589743614197, 92.43935441970825, 92.2969400882721), 'test_time': (176.6402223110199, 176.62284564971924, 176.9184308052063, 178.75401663780212, 177.2087504863739)}

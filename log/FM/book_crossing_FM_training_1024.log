@@ -1,0 +1,17 @@
+root - INFO - begin tuning parameters for book_crossing: SVD
+root - INFO - book_crossing_best_params£º{'n_factors': 50, 'n_epochs': 30, 'lr_all': 0.005, 'reg_all': 0.1}
+root - INFO - start training: SVD
+root - INFO - start evaluation: SVD
+root - INFO - {'test_rmse': 0.7618337271622476, 'test_mae': 0.582408005201314}
+root - INFO - begin tuning parameters for book_crossing: NMF
+root - INFO - book_crossing_best_params£º{'n_factors': 25, 'n_epochs': 50}
+root - INFO - start training: NMF
+root - INFO - start evaluation: NMF
+root - INFO - {'test_rmse': 0.9126129999305143, 'test_mae': 0.687245722738072}
+root - INFO - begin tuning parameters for book_crossing: KNNWithMeans
+root - INFO - book_crossing_best_params£º{'k': 20, 'sim_options': {'name': 'pearson', 'user_based': True}}
+root - INFO - start training: KNNWithMeans
+root - INFO - start evaluation: KNNWithMeans
+root - INFO - {'test_rmse': 0.8459617454481855, 'test_mae': 0.6334136069887041}
+root - INFO - book_crossing_model is trained and saved at: f:\NTU Learn\DATA MINING\DMproject\output\model\book_crossing_collaborative_filtering_model.pickle
+root - INFO - book_crossing_model evaluation is saved at: f:\NTU Learn\DATA MINING\DMproject\output\result\book_crossing_vector_based_CF_results.json
